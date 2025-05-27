@@ -1,8 +1,8 @@
-
+import Home from "./pages/Home"
 function App() {
   return (
-    <div className="text-5xl bg-gray-600">
-      ZappLearn
+    <div className="flex flex-col">
+      <Home />
     </div>
   )
 }
