@@ -22,9 +22,9 @@ const Hero = () => {
                     </div>
                     <button className='w-fit bg-button rounded-full text-white px-12 py-4'>Search</button>
                 </div>
-                {/* <div className=''>
+                <div className=''>
                     <HorizontalScrollingImages />
-                </div> */}
+                </div>
             </div>
         </div>
     )

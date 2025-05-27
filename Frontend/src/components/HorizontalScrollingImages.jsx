@@ -13,10 +13,10 @@ const HorizontalScrollingImages = () => {
   ];
 
   return (
-    <div className="">
+    <div className="w-7xl">
       <div className="overflow-clip max-w-screen">
         {/* Scrolling Images */}
-        <div className="overflow-hidden rounded-2xl bg-white/10 backdrop-blur-lg p-6 border border-white/20">
+        <div className="overflow-hidden rounded-2xl p-6 ">
           <div
             className={'flex gap-6 animate-scroll '}
           >
