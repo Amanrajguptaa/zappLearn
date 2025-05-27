@@ -59,7 +59,7 @@ const Testimonial = () => {
   ];
 
   return (
-    <div className="bg-white py-16 px-4 max-w-6xl mx-auto">
+    <div className=" py-16 px-4 max-w-6xl mx-auto">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-start justify-between mb-12">
           <div className="flex-1">

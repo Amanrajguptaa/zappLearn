@@ -3,7 +3,7 @@ import { Users, Monitor, FileText, MessageCircle } from 'lucide-react';
 
 const VideoSection = () => {
   return (
-    <div className="bg-white p-4 md:p-8 max-w-6xl mx-auto my-10">
+    <div className=" p-4 md:p-8 max-w-6xl mx-auto my-10">
       <div className="">
         <div className="text-center mb-12 md:mb-16">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 md:mb-6">

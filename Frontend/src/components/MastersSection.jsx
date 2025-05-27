@@ -97,7 +97,7 @@ const MastersSection = () => {
   ];
 
   return (
-    <div className=" bg-white my-10 max-w-6xl mx-auto">
+    <div className="my-10 max-w-6xl mx-auto">
       <div className=" mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">
