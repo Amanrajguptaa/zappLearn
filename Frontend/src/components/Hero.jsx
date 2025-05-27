@@ -8,7 +8,7 @@ const Hero = () => {
             <img src={Background} alt="Background" className="fixed -z-1 w-full h-screen object-cover" />
             <div className="w-4xl flex flex-col gap-6 items-center pt-38">
                 <div className='w-fit px-6 py-2 items-center text-primary flex gap-2 bg-white rounded-full'>
-                    <BriefcaseBusiness size={20} strokeWidth={1} className='text-black text-primary ' />
+                    <BriefcaseBusiness size={20} strokeWidth={1} className=' text-primary ' />
                     Your #1 Platform for Skill Sharing
                 </div>
                 <h1 className='text-7xl font-semibold text-center text-primary'>Showcase Your Mastery. Get Connected</h1>
