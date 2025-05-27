@@ -1,7 +1,7 @@
 
 function App() {
   return (
-    <div className="text-5xl">
+    <div className="text-5xl bg-gray-600">
       ZappLearn
     </div>
   )
