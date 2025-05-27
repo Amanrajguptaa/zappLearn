@@ -1,7 +1,7 @@
 import Hero from "../components/Hero"
 const Home = () => {
   return (
-    <div>
+    <div className="flex flex-col ">
       <Hero />
     </div>
   )
