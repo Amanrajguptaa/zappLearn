@@ -20,7 +20,7 @@ const Hero = () => {
                             <input className='w-full px-2 py-4  focus:outline-none' placeholder='Courses...' ></input>
                         </div>
                     </div>
-                    <button className='w-fit bg-button rounded-full text-white px-12 py-4'>Search</button>
+                    <button className='w-fit bg-blue rounded-full text-white px-12 py-4'>Search</button>
                 </div>
                 <div className=''>
                     <HorizontalScrollingImages />
