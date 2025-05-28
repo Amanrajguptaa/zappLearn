@@ -15,7 +15,6 @@ export default function Video() {
                     <ChevronLeft strokeWidth={3} size={20}/>
                     Back
                     </button>
-                {/* <h1 className="text-2xl font-bold text-gray-800">Video Player</h1> */}
             </div>
             <div className='w-full flex gap-2'>
                 <VideoPlayerSection />

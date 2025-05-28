@@ -14,14 +14,14 @@ const CommentsSection = () => {
       <div className="w-full bg-white rounded-xl shadow-lg border border-gray-200">
         <div className="p-6 border-b border-gray-200">
           <h3 className="text-lg font-semibold text-gray-800 flex items-center">
-            <MessageCircle className="w-5 h-5 mr-2 text-purple-600" />
+            <MessageCircle className="w-5 h-5 mr-2 text-pwpurple" />
             Comments ({comments.length})
           </h3>
         </div>
         
         <div className="p-6 border-b border-gray-200">
           <div className="flex gap-3">
-            <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center text-white text-sm font-medium">
+            <div className="w-8 h-8 bg-pwpurple rounded-full flex items-center justify-center text-white text-sm font-medium">
               U
             </div>
             <div className="flex-1">
@@ -33,7 +33,7 @@ const CommentsSection = () => {
                 rows="3"
               />
               <div className="flex justify-end mt-2">
-                <button className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg text-sm transition-colors duration-200">
+                <button className="bg-pwpurple hover:bg-violet-600 text-white px-4 py-2 rounded-lg text-sm transition-colors duration-200">
                   Comment
                 </button>
               </div>

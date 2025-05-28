@@ -14,7 +14,7 @@ const ImportDialog = () => {
       <div className="bg-white rounded-xl shadow-2xl p-6 w-96 max-w-90vw">
         <div className="flex items-center justify-between mb-4">
           <h3 className="flex items-center ga-2 text-lg font-semibold text-gray-800">
-            <Upload className="w-5 h-5 mr-2 text-purple-600" />
+            <Upload className="w-5 h-5 mr-2 text-pwpurple" />
             Notes Upload</h3>
           <button
             onClick={() => setIsOpenUploadBox(false)}
@@ -34,7 +34,7 @@ const ImportDialog = () => {
         >
           <Upload className="w-12 h-12 text-gray-400 mx-auto mb-4" />
           <p className="text-gray-600 mb-2">Drop your notes here or</p>
-          <button className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg transition-colors duration-200">
+          <button className="bg-pwpurple hover:bg-violet-600 text-white px-4 py-2 rounded-lg transition-colors duration-200">
             Browse Files
           </button>
         </div>

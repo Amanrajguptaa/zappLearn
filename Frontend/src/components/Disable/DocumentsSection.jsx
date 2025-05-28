@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FileText, Volume2, BookOpen, Brain, Play, ChevronRight } from 'lucide-react';
+import {  Volume2, BookOpen, Brain, Play, ChevronRight } from 'lucide-react';
 import { useContext } from 'react';
 import { DocumentContext } from '../../context/Provider';
 import { useNavigate } from 'react-router-dom';
@@ -27,13 +27,13 @@ const DocumentsSection = () => {
             <button
               onClick={() => setDylexiaMode(!dylexiaMode)}
               className={`px-3 py-3 rounded-full text-sm transition-colors duration-200 ${dylexiaMode
-                  ? 'bg-purple-600 text-white'
+                  ? 'bg-pwpurple text-white'
                   : 'bg-gray-200 text-gray-700 hover:bg-purple-100'
                 }`}
             >
               Dyslexia Mode
             </button>
-            <button className="bg-purple-600 hover:bg-purple-700 text-white px-3 py-1 rounded-full text-sm transition-colors duration-200"
+            <button className="bg-pwpurple hover:bg-violet-600 text-white px-3 py-1 rounded-full text-sm transition-colors duration-200"
               onClick={() => setIsOpenUploadBox(true)}
             >
               Upload Document
@@ -45,7 +45,7 @@ const DocumentsSection = () => {
       <div className="px-16 py-12">
         <div className="mb-6">
           <h4 className="font-medium text-gray-800 mb-3 flex items-center">
-            <Volume2 className="w-4 h-4 mr-2 text-purple-600" />
+            <Volume2 className="w-4 h-4 mr-2 text-pwpurple" />
             Audio Summary
           </h4>
           <div className="bg-purple-50 p-4 rounded-lg border border-purple-200">
@@ -54,11 +54,11 @@ const DocumentsSection = () => {
               <span className="text-xs text-gray-500">5:32</span>
             </div>
             <div className="flex items-center gap-3">
-              <button className="bg-purple-600 hover:bg-purple-700 text-white p-2 rounded-full transition-colors duration-200">
+              <button className="bg-pwpurple hover:bg-violet-600 text-white p-2 rounded-full transition-colors duration-200">
                 <Play className="w-4 h-4" />
               </button>
               <div className="flex-1 bg-purple-200 rounded-full h-2">
-                <div className="bg-purple-600 h-2 rounded-full w-1/3"></div>
+                <div className="bg-pwpurple h-2 rounded-full w-1/3"></div>
               </div>
             </div>
           </div>
@@ -66,25 +66,25 @@ const DocumentsSection = () => {
 
         <div className="mb-6">
           <h4 className="font-medium text-gray-800 mb-3 flex items-center">
-            <BookOpen className="w-4 h-4 mr-2 text-purple-600" />
+            <BookOpen className="w-4 h-4 mr-2 text-pwpurple" />
             Document Summary
           </h4>
           <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
             <ol className="space-y-2 text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="bg-purple-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">1</span>
+                <span className="bg-pwpurple text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">1</span>
                 Introduction to fundamental physics concepts
               </li>
               <li className="flex items-start">
-                <span className="bg-purple-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">2</span>
+                <span className="bg-pwpurple text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">2</span>
                 Newton's laws of motion explained
               </li>
               <li className="flex items-start">
-                <span className="bg-purple-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">3</span>
+                <span className="bg-pwpurple text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">3</span>
                 Practical applications and examples
               </li>
               <li className="flex items-start">
-                <span className="bg-purple-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">4</span>
+                <span className="bg-pwpurple text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">4</span>
                 Key formulas and calculations
               </li>
             </ol>
@@ -93,11 +93,11 @@ const DocumentsSection = () => {
 
         <div>
           <h4 className="font-medium text-gray-800 mb-3 flex items-center">
-            <Brain className="w-4 h-4 mr-2 text-purple-600" />
+            <Brain className="w-4 h-4 mr-2 text-pwpurple" />
             Start Quizzes
           </h4>
           <div className="grid gap-3">
-            <button className="bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white p-4 rounded-lg text-left transition-all duration-200 transform hover:scale-105">
+            <button className="bg-gradient-to-r from-pwpurple to-purple-700 hover:from-purple-700 hover:to-pwpurple text-white p-4 rounded-lg text-left transition-all duration-200 transform hover:scale-105">
               <div className="flex items-center justify-between">
                 <div>
                   <h5 className="font-medium mb-1">Chapter 1 Quiz</h5>
