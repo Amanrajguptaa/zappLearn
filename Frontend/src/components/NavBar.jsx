@@ -1,6 +1,6 @@
 export default function NavBar() {
     return (
-        <nav className=" w-full absolute">
+        <nav className="w-full absolute">
             <div className="w-full mx-auto py-4 px-22 ">
                 <div className="w-full flex items-center justify-between h-16">
                     <div className="flex-shrink-0">
