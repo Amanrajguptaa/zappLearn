@@ -1,3 +1,4 @@
+import { Search } from "lucide-react";
 export default function OurCourses() {
     return (
         <div className="flex justify-center items-center h-screen">
