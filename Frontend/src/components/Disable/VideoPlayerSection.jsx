@@ -5,7 +5,7 @@ const VideoPlayerSection = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+    <div className="w-full bg-white rounded-xl shadow-lg p-6 border border-gray-200">
       <div className="aspect-video bg-gradient-to-br from-purple-100 to-gray-100 rounded-lg flex items-center justify-center mb-4 relative overflow-hidden">
         <div className="absolute inset-0 bg-black bg-opacity-20"></div>
         <button 
