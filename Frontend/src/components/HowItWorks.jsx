@@ -49,7 +49,7 @@ const HowItWorks = () => {
             <div className="w-1/2 flex gap-4">
                 <div className='flex flex-col'>
                     <img src={image1} alt="How it works" className=" w-[230px]  rounded-2xl shadow-lg" />
-                    <div className='relative left-20 top-4 bg-white flex p-4  border border-neutral-200 rounded-2xl'>
+                    <div className='relative gap-2 h-22 left-20 top-4 bg-white flex p-4  border border-neutral-200 rounded-2xl'>
                         <img src={image3} alt="How it works" className="rounded-2xl shadow-lg" />
                         <div className=''>
                             <h1 className='text-xl text-blue'>10k+</h1>
