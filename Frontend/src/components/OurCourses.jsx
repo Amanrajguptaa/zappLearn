@@ -1,7 +1,9 @@
 import { Search } from "lucide-react";
+import bg from '../assets/Backgroudn Gradient (2).png'
 export default function OurCourses() {
     return (
-        <div className="flex justify-center items-center h-screen">
+        <div className="flex flex-col border rounded-md border-neutral-200 justify-center items-center h-96">
+            <img src={bg}></img>
             <p className="">KNOWLEDGEPULSE</p>
             <h1 className="text-6xl font-bold">Our Courses</h1>
             <p>This platform's simplicity belies its powerful capabilities, offering a seamless and enjoyable educational expirience.</p>
